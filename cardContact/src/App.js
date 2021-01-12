@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Card from './Components/Card.jsx'
+import Count from './Components/Count.jsx'
 
 
 class App extends Component {
@@ -17,8 +18,12 @@ class App extends Component {
                 <Card name= "Luigi Mario "  mobile = " 718-621-6953 " work = " 917-567-8901 " email = " lmario@gmail.com"/>
 
                 <Card name= "Pac Man " mobile = " 646-510-5569 " work = " 917-234-5678 " email = " pman@gmail.com"/>
+
+                <Count number = {0} />
+
             </div>
         )
     }
 }
+
 export default App
